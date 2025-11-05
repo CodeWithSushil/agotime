@@ -22,6 +22,13 @@ composer require agotime/agotime
 
 Documention of **`AgoTime`** PHP Library.
 
+```php
+<?php
+
+require_once(__DIR__ . "/vendor/autoload.php");
+
+```
+
 [`Full code here`](examples/agotime.php)
 
 ---
