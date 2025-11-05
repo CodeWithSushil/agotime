@@ -18,5 +18,10 @@
         }
     ],
     "minimum-stability": "stable",
-    "prefer-stable": true
+    "prefer-stable": true,
+    "require-dev": {
+        "laravel/pint": "^1.25",
+        "phpstan/phpstan": "^2.1",
+        "phpunit/phpunit": "^12.4"
+    }
 }
