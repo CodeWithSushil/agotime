@@ -11,7 +11,10 @@
         "date-time"
     ],
     "require": {
-        "php": "^8.3"
+        "php": "^8.3",
+        "ext-mbstring": "*",
+        "ext-json": "*",
+        "ext-date": "*"
     },
     "require-dev": {
         "laravel/pint": "^1.25",
