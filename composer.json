@@ -45,6 +45,7 @@
         "test:unit": "./vendor/bin/phpunit --colors",
         "tests": [
             "@test:lint --test --parallel",
+            "@lint",
             "@test:type --no-progress",
             "@test:unit --no-progress"
         ]
